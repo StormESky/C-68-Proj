@@ -1,0 +1,39 @@
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: crimson;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body {
+    text-align: center;
+    background: rgb(184,25,246);
+background: linear-gradient(172deg, rgba(184,25,246,1) 0%, rgba(12,217,184,1) 51%, rgba(215,160,16,1) 78%);
+}
+#work {
+text-align:left;
+}
+h1 {
+
+    font-size: 40px;
+    font-family: 'Comic Sans',"sans-serif";
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Bradley Hand', "cursive";
